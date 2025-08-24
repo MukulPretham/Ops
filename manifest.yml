@@ -11,6 +11,7 @@ spec:
       labels:
         app: apache
     spec:
+      replicas: 3
       containers:
       - name: apache
         image: httpd
